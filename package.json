@@ -2,9 +2,8 @@
   "name": "palpite-box",
   "version": "1.0.0",
   "description": "",
-  "main": "index.jsx",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next",
     "start": "next start",
     "build": "next build"
@@ -17,6 +16,7 @@
     "postcss-import": "^12.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "swr": "^0.3.5",
     "tailwindcss": "^1.7.6"
   }
 }
