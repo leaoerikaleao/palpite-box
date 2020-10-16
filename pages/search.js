@@ -19,9 +19,6 @@ const Search = () => {
     const save = async () => {
         try {
 
-            const validate = JSON.stringify(form)
-            //console.log(validate)
-
             // Acessa a API para enviar os dados
             const response = await fetch('/api/save', {
                 method: 'POST',
