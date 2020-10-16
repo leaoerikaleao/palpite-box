@@ -2,7 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
   "/api/get-promo": "pages/api/get-promo.js",
-  "/search": "pages/search.js"
+  "/": "pages/index.js"
 }
