@@ -14,7 +14,6 @@ const Search = () => {
 
     const [success, setSuccess] = useState(false)
     const [retn, setRetn] = useState({})
-    const [errorMessage, setErrorMessage] = useState({})
 
     const save = async () => {
         try {
