@@ -4,7 +4,7 @@ import useSWR from 'swr'
 import PageTitle from '../components/PageTitle'
 
 // função padrão do navegador 
-//const fetcher = (...args) => fetch(...args).then(res => res.json())
+const fetcher = (...args) => fetch(...args).then(res => res.json())
 
 const Index = () => {
     /* 
