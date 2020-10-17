@@ -70,11 +70,12 @@ const Search = () => {
                     <div className="flex py-6">
                         {
                             grades.map(grade => {
-                                return <label className="block w-1/6 text-center">
+                                return <label key={grade} className="block w-1/6 text-center">
                                     {grade} <br />
                                     <input type="radio"
                                         name="Nota"
                                         value={grade}
+
                                         onChange={onChange} />
                                 </label>
                             })
