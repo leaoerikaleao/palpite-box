@@ -7,10 +7,10 @@ import PageTitle from '../components/PageTitle'
 const fetcher = (...args) => fetch(...args).then(res => res.json())
 
 const Index = () => {
-    /* 
-        // URL para buscar os dados e método como ele vai buscar
-        const { data, error } = useSWR('/api/get-promo', fetcher)
-        //return (<pre>{JSON.stringify(data)}</pre>) */
+
+    // URL para buscar os dados e método como ele vai buscar
+    const { data, error } = useSWR('/api/get-promo', fetcher)
+    //return (<pre>{JSON.stringify(data)}</pre>)
 
     return (
         <div>
