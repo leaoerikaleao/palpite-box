@@ -1,10 +1,11 @@
 import React from 'react'
 import Link from 'next/link'
-import useSWR from 'swr'
+import useSWR, { SWRConfig } from 'swr'
 import PageTitle from '../components/PageTitle'
 
 // função padrão do navegador 
-const fetcher = (...args) => fetch(...args).then(res => res.json())
+//const fetcher = (...args) => fetch(...args).then(res => res.json())
+const fetcher = url => fetch(url).then(r => r.json())
 
 const Index = () => {
 

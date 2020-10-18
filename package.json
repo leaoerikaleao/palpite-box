@@ -9,15 +9,16 @@
     "build": "next build"
   },
   "author": "Erika Leão - @leaoerikaleao",
-  "license": "MIT",
+  "license": "MIt",
   "dependencies": {
-    "google-spreadsheet": "^3.0.11",
-    "moment": "^2.27.0",
-    "next": "^9.4.4",
+    "autoprefixer": "^9.8.6",
+    "google-spreadsheet": "^3.0.13",
+    "moment": "^2.29.1",
+    "next": "^9.5.2",
     "postcss-import": "^12.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "swr": "^0.2.3",
+    "swr": "^0.3.5",
     "tailwindcss": "^1.7.6"
   }
 }
