@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from './styles.module.css'
 import Link from 'next/link'
 
 const Header = () => {
@@ -25,7 +24,6 @@ const Header = () => {
                 </Link>
             </div>
         </React.Fragment>
-
     )
 }
 

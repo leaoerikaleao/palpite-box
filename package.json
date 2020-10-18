@@ -9,16 +9,16 @@
     "build": "next build"
   },
   "author": "Erika Leão - @leaoerikaleao",
-  "license": "MIt",
+  "license": "MIT",
   "dependencies": {
-    "autoprefixer": "^9.8.6",
-    "google-spreadsheet": "^3.0.13",
-    "moment": "^2.29.1",
-    "next": "^9.5.2",
+    "autoprefixer": "^9.8.4",
+    "google-spreadsheet": "^3.0.11",
+    "moment": "^2.27.0",
+    "next": "^9.5.5",
     "postcss-import": "^12.0.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "swr": "^0.3.5",
-    "tailwindcss": "^1.7.6"
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "swr": "^0.2.3",
+    "tailwindcss": "^1.9.4"
   }
 }

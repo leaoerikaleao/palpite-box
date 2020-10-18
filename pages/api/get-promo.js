@@ -3,7 +3,6 @@ import { fromBase64 } from '../../utils/base64'
 
 const doc = new GoogleSpreadsheet(process.env.SHEET_DOC_ID)
 
-/*
 export default async (req, res) => {
     try {
         await doc.useServiceAccountAuth({
@@ -12,12 +11,11 @@ export default async (req, res) => {
         })
 
         await doc.loadInfo()
-        const sheet = doc.sheetsByIndex[2]
 
+        const sheet = doc.sheetsByIndex[2]
         await sheet.loadCells('A3:B3')
 
         const promotionCell = sheet.getCell(2, 0)
-
         const textCell = sheet.getCell(2, 1)
 
         res.end(JSON.stringify({
@@ -31,4 +29,4 @@ export default async (req, res) => {
             message: ''
         }))
     }
-} */
+}
