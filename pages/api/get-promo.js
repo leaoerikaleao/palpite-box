@@ -12,7 +12,7 @@ export default async (req, res) => {
         })
 
         await doc.loadInfo()
-        const sheet = doc.sheetsByIndex[2]
+        /* const sheet = doc.sheetsByIndex[2]
 
         await sheet.loadCells('A3:B3')
 
@@ -23,7 +23,7 @@ export default async (req, res) => {
         res.end(JSON.stringify({
             showCoupon: promotionCell.value === 'VERDADEIRO',
             message: textCell.value
-        }))
+        })) */
 
     } catch (err) {
         res.end(JSON.stringify({
