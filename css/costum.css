@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Inconsolata:wght@500&family=Josefin+Slab:wght@600&family=News+Cycle&family=Overpass&display=swap');
+
+/* 
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Inconsolata', monospace;
+font-family: 'Josefin Slab', serif;
+font-family: 'News Cycle', sans-serif;
+font-family: 'Overpass', sans-serif;
+ */
+
+.body{
+    font-family: 'Inconsolata', monospace;
+}
+
+.nav-font{
+    font-family: 'News Cycle', sans-serif;
+    
+}
+
+.footer{
+    font-family: 'Inconsolata', monospace;
+}

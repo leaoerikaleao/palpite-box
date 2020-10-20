@@ -16,19 +16,21 @@ const Index = () => {
     return (
         <div>
             <PageTitle title="Seja Bem Vindo/a!" />
-            <p className="mt-12 text-center">O restaurante X sempre busca por atender melhor seus clientes.<br />
+            <h1 className="text-center text-2xl ">Seja Bem Vindo/a!</h1>
+            <p className="py-8 text-center">
+                Este estabelecimento sempre busca por atender melhor seus clientes.<br />
                 Por isso, estamos sempre abertos a ouvir a sua opinião.
             </p>
-            <div className="text-center my-12">
+            <div className="py-4 text-center">
                 <Link href='/search'>
-                    <a className="bg-blue-400 px-12 py-4 font-bold rounded-lg shadow-lg hover:shadow">Dar opinião ou sugestão</a>
+                    <a className=" transition duration-300 text-white bg-blue-500 hover:bg-blue-400 border-b-4 border-blue-700 hover:border-blue-500 px-12 py-4 font-bold rounded-lg shadow-lg">Dar opinião ou sugestão</a>
                 </Link>
             </div>
 
-            {!data && <p>Carregando</p>}
+            {!data && <p className="py-8 text-center">Carregando</p>}
 
             {!error && data && data.showCoupon &&
-                <p className="my-12 text-center">
+                <p className="py-8 text-center">
                     {data.message}
                 </p>
             }

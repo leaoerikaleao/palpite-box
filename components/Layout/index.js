@@ -2,12 +2,13 @@ import React from 'react'
 import Footer from '../Footer'
 import Header from '../Header'
 
+
 //o elemento children carrega o conteúdo das páginas
 const Layout = ({ children }) => {
     return (
-        <div>
+        <div className="body text-lg flex flex-col min-h-screen ">
             <Header />
-            <div className="container mx-auto">
+            <div className="container mx-auto flex-grow p-12">
                 {children}
             </div>
             <Footer />
