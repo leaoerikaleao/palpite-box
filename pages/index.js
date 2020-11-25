@@ -14,11 +14,11 @@ const Index = () => {
     //return (<pre>{JSON.stringify(data)}</pre>)
 
     return (
-        <div>
+        <div className="px-24">
             <PageTitle title="Seja Bem Vindo/a!" />
             <h1 className="text-center text-2xl ">Seja Bem Vindo/a!</h1>
-            <p className="py-8 text-center">
-                Este estabelecimento sempre busca por atender melhor seus clientes.<br />
+            <p className="py-8 px-24 text-center">
+                Este estabelecimento sempre busca por atender melhor seus clientes.
                 Por isso, estamos sempre abertos a ouvir a sua opinião.
             </p>
             <div className="py-4 text-center">

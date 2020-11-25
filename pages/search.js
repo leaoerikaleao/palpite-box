@@ -43,11 +43,11 @@ const Search = () => {
     }
 
     return (
-        <div className="pt-6">
+        <div className="px-24">
             <PageTitle title="Pesquisa" />
-            <h1 className="text-center font-bold my-4 text-4x1">Críticas e sugestões</h1>
-            <p className="text-center mb-6">
-                O restaurante X sempre busca por atender melhor seus clientes. <br />
+            <h1 className="text-center text-2xl ">Críticas e sugestões</h1>
+            <p className="py-8  px-24 text-center">
+                O restaurante X sempre busca por atender melhor seus clientes.
                 Por isso, estamos sempre abertos a ouvir a sua opinião.
             </p>
             {
@@ -86,7 +86,7 @@ const Search = () => {
                 </div>
             }
             { success &&
-                <div className="w-1/5 mx-auto">
+                <div className="w-1/5 mx-auto py-8">
                     <p className="mb-6 text-center bg-blue-100 border-t border-b border-blue-500 text-blue-700 px-4 py-3">
                         Obrigado por contribuir com sua sugestão ou crítica!
                     </p>
