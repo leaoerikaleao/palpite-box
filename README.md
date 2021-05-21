@@ -4,8 +4,6 @@
  O Palpite Box permite que estabelecimentos comerciais oferecam desconto e promoções a seus clientes em troca de sugestões e/ou elogios e reclamações.
  
 
-[![HitCount](http://hits.dwyl.com/leaoerikaleao/palpite-box.svg)](http://hits.dwyl.com/leaoerikaleao/palpite-box)
-
 ## Configurar Variáveis de Ambiente para o Projeto
 
 ```bash
